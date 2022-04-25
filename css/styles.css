@@ -1,0 +1,199 @@
+/* TAGS */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+ }
+
+ h2{
+     font-size: 3rem;
+     line-height: 1.5;
+ }
+
+  p{
+    color: #8f8f8f;
+    font-family: "Ubuntu"; 
+  }
+  
+ a{
+    color: black;
+ }
+
+ #title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+
+}
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+ 
+ /* Navigation Bar */
+   
+.navbar{
+    padding-bottom: 4.5rem;
+   
+}
+
+ .navbar-brand{
+     font-family: "Ubuntu";
+     font-size: 2.5rem;
+     font-weight: bold;
+     padding-right: 0;
+ }
+
+ .nav-item{
+     padding: 0 18px;
+ }
+
+ .nav-link{
+     font-size: 1.2rem;
+     font-family: "Ubuntu";
+ }
+
+ /* Download Btn */
+
+ .download-btn{
+     margin: 2rem 1rem 2rem 0;
+     font-family: "Ubuntu";
+ }
+
+ /* Title-image */
+
+ .title-image{
+     width: 23%;
+     transform: rotate(25deg);
+     position: absolute;
+     
+ }
+
+
+    /* FEATURES   */
+
+ #features{
+     padding: 12rem;
+     background-color: white;
+     position: relative;
+     z-index: 1;
+ }
+ .col-lg-4{
+     padding-top: 3rem;
+ }
+ .col-lg-4  h3{
+    font-size: 1.5rem;
+ }
+  
+ .col-lg-4  p{
+    width: 60%;
+    margin: 0 auto 0 auto;
+ }
+
+ /* ICON */
+
+ .icon{
+     color: #ef8172;
+     padding-bottom: 1rem;
+ }
+
+ .icon:hover{
+     color: #ff4c68;
+ }
+ 
+ /* testimonials */
+
+ #testimonials{
+     
+     background-color: #ef8172;
+     color: #fff;
+ }
+
+ .testimonial-image{
+     width: 10%;
+     border-radius: 100%;
+     margin-right: 1rem;
+ }
+
+ #press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+ }
+
+ .press-logo{
+     width: 15%;
+     margin: 20px 20px 50px;
+ }
+
+ .carousel-item {
+    padding: 7% 15%;
+ }
+
+ /* PRICING SELECTOR */
+
+ #pricing{
+     padding: 100px;
+ }
+
+ 
+.pricing-col{
+     
+     padding: 4rem 2rem;
+ }
+
+     /* CALL TO ACTION */
+ #cta{
+      background-color: #ff4c68;
+      padding: 6% 17% 10%;
+
+ }
+ .sub-head{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 3rem ;
+
+ }
+    /* FOOTER */
+ #footer{
+     padding: 4rem 2rem;
+     background-color: #fff;
+ }
+ 
+ .all-icon{
+    padding: 5rem 1rem 3rem;
+ }
+
+ 
+
+ /* MEDIA QUERY */
+
+ @media(max-width:1000px){
+    #title{
+        text-align: center;
+    }
+   
+    .title-image{
+       position: static;
+       transform: rotate(0);
+       width: 60%;
+   }
+ }
+
+
+
+
+
+
+
+
